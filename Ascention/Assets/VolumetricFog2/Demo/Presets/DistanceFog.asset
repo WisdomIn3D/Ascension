@@ -28,7 +28,7 @@ MonoBehaviour:
   detailScale: 0.56
   detailStrength: 0.317
   detailOffset: -0.5
-  density: 0.33
+  density: 0.53
   shape: 0
   border: 0.061
   verticalOffset: 0
