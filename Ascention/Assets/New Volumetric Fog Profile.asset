@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 612e70f49e5124da0a95111a57250300, type: 3}
   m_Name: New Volumetric Fog Profile
   m_EditorClassIdentifier: 
-  raymarchQuality: 6
+  raymarchQuality: 8
   raymarchMinStep: 0.1
   jittering: 0.5
-  dithering: 1
+  dithering: 0
   renderQueue: 3100
   sortingLayerID: 0
   sortingOrder: 0
@@ -23,14 +23,14 @@ MonoBehaviour:
   noiseStrength: 1
   noiseScale: 15
   noiseFinalMultiplier: 1
-  useDetailNoise: 0
+  useDetailNoise: 1
   detailTexture: {fileID: 11700000, guid: 950add8d241c6479bbab1f10e1035d60, type: 2}
-  detailScale: 0.35
-  detailStrength: 0.5
+  detailScale: 0.33
+  detailStrength: 0.303
   detailOffset: -0.5
-  density: 1
+  density: 0.53
   shape: 0
-  border: 0.05
+  border: 0.015
   verticalOffset: 0
   distance: 0
   distanceFallOff: 0
@@ -42,7 +42,7 @@ MonoBehaviour:
   terrainFogHeight: 25
   terrainFogMinAltitude: 0
   terrainFogMaxAltitude: 150
-  albedo: {r: 0.8901961, g: 0.8901961, b: 0.8901961, a: 1}
+  albedo: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 1}
   enableDepthGradient: 0
   depthGradient:
     serializedVersion: 2
@@ -106,10 +106,10 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   brightness: 1
   deepObscurance: 1
-  specularColor: {r: 1, g: 1, b: 0.8, a: 1}
+  specularColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
   specularThreshold: 0.637
   specularIntensity: 0.428
-  turbulence: 0.73
+  turbulence: 0.21
   windDirection: {x: 0.02, y: 0, z: 0}
   lightDiffusionPower: 32
   lightDiffusionIntensity: 0.4

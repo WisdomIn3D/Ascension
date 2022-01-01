@@ -26,7 +26,7 @@ MonoBehaviour:
   useDetailNoise: 1
   detailTexture: {fileID: 11700000, guid: 950add8d241c6479bbab1f10e1035d60, type: 2}
   detailScale: 0.45
-  detailStrength: 0.606
+  detailStrength: 0.218
   detailOffset: -0.5
   density: 0.56
   shape: 1
@@ -113,5 +113,5 @@ MonoBehaviour:
   windDirection: {x: 0.02, y: 0, z: 0}
   lightDiffusionPower: 32
   lightDiffusionIntensity: 0.4
-  receiveShadows: 0
+  receiveShadows: 1
   shadowIntensity: 0.5

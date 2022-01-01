@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 612e70f49e5124da0a95111a57250300, type: 3}
   m_Name: DistanceFog
   m_EditorClassIdentifier: 
-  raymarchQuality: 6
-  raymarchMinStep: 0.2
+  raymarchQuality: 14
+  raymarchMinStep: 0.1
   jittering: 3
-  dithering: 1
+  dithering: 0
   renderQueue: 3100
   sortingLayerID: 0
   sortingOrder: 0
@@ -23,12 +23,12 @@ MonoBehaviour:
   noiseStrength: 1.09
   noiseScale: 15
   noiseFinalMultiplier: 1
-  useDetailNoise: 0
+  useDetailNoise: 1
   detailTexture: {fileID: 11700000, guid: 950add8d241c6479bbab1f10e1035d60, type: 2}
-  detailScale: 0.35
-  detailStrength: 0.5
+  detailScale: 0.56
+  detailStrength: 0.317
   detailOffset: -0.5
-  density: 0.18
+  density: 0.33
   shape: 0
   border: 0.061
   verticalOffset: 0
@@ -42,8 +42,8 @@ MonoBehaviour:
   terrainFogHeight: 25
   terrainFogMinAltitude: 0
   terrainFogMaxAltitude: 150
-  albedo: {r: 0.8901961, g: 0.8901961, b: 0.8901961, a: 1}
-  enableDepthGradient: 0
+  albedo: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 1}
+  enableDepthGradient: 1
   depthGradient:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
@@ -74,7 +74,7 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   depthGradientMaxDistance: 500
-  enableHeightGradient: 0
+  enableHeightGradient: 1
   heightGradient:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
@@ -106,12 +106,12 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   brightness: 1
   deepObscurance: 1
-  specularColor: {r: 1, g: 1, b: 0.8, a: 1}
-  specularThreshold: 0.637
-  specularIntensity: 0.428
-  turbulence: 0.73
+  specularColor: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
+  specularThreshold: 0.722
+  specularIntensity: 0.498
+  turbulence: 0.29
   windDirection: {x: -0.02, y: 0, z: 0}
-  lightDiffusionPower: 32
+  lightDiffusionPower: 37.4
   lightDiffusionIntensity: 0.4
   receiveShadows: 1
   shadowIntensity: 0.5
