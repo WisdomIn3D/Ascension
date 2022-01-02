@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: UniversalRenderPipelineAsset_Renderer
   m_EditorClassIdentifier: 
   m_RendererFeatures:
-  - {fileID: 9016511877426221769}
   - {fileID: 2758140848828049738}
-  m_RendererFeatureMap: c99214efc715217d4ae9e31e7de24626
+  - {fileID: 9065737179467870438}
+  m_RendererFeatureMap: 4ae9e31e7de24626e6f03bb1eef7cf7d
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   shaders:
@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: NewDepthRenderPrePassFeature
   m_EditorClassIdentifier: 
   m_Active: 0
---- !u!114 &9016511877426221769
+--- !u!114 &9065737179467870438
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -67,21 +67,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 836fba37e8552f541abf20055e192196, type: 3}
-  m_Name: NewAtmosphericFogRenderFeature
+  m_Script: {fileID: 11500000, guid: f62c9c65cf3354c93be831c8bc075510, type: 3}
+  m_Name: SSAO
   m_EditorClassIdentifier: 
-  m_Active: 0
-  settings:
-    color: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
-    sunColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
-    fogDensity: 0.07
-    fogDensityPower: 27.4
-    skyAlpha: 1
-    useHeightFog: 1
-    fogHeightStart: -25
-    fogHeightEnd: 10
-    fogHeightPower: 1.1
-    extraFogHeightEnd: 0
-    extraFogHeightPower: 0.5
-    directionalIntesity: 1
-    directionalPower: 1
+  m_Active: 1
+  m_Shader: {fileID: 4800000, guid: 0849e84e3d62649e8882e9d6f056a017, type: 3}
+  m_Settings:
+    Downsample: 0
+    Source: 1
+    NormalSamples: 1
+    Intensity: 5.96
+    DirectLightingStrength: 0.453
+    Radius: 0.06
+    SampleCount: 6
