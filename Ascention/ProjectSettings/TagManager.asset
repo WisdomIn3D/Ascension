@@ -7,6 +7,7 @@ TagManager:
   - Lightsource
   - Grab
   - Harmful
+  - spawn
   layers:
   - Default
   - TransparentFX
