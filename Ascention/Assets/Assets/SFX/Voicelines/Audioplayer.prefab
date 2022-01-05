@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8603161941825629354}
   - component: {fileID: 6448463119026412128}
   - component: {fileID: 5143128362106921924}
-  - component: {fileID: 4903930878611784733}
   m_Layer: 2
   m_Name: Audioplayer
   m_TagString: Untagged
@@ -143,7 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"delay","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"onlyPlayOnce","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"delay","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"onlyPlayOnce","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"Trigger","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &5143128362106921924
 MonoBehaviour:
@@ -161,16 +160,3 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: d65a333bf4b5579438d4535d4e1f1de5, type: 2}
---- !u!135 &4903930878611784733
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 338528967577848099}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 4
-  m_Center: {x: 0, y: 0, z: 0}
