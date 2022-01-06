@@ -90,7 +90,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaClip: 0
-    - _AtmosphereThickness: 0.13
+    - _AtmosphereThickness: 0
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -129,7 +129,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 0.041384827, g: 0.052533183, b: 0.09433961, a: 1}
+    - _GroundColor: {r: 0, g: 0, b: 0, a: 1}
     - _SkyTint: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Tint: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 0.5}
