@@ -20,7 +20,7 @@ MonoBehaviour:
     x: 785
     y: -1099
     width: 1254
-    height: 2554
+    height: 2631
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -95,9 +95,11 @@ MonoBehaviour:
   m_InputSlots: []
   m_OutputSlots: []
   m_Label: Spawn system
-  m_Data: {fileID: 8926484042661615164}
+  m_Data: {fileID: 8926484042661614676}
   m_InputFlowSlot:
-  - link: []
+  - link:
+    - context: {fileID: 8926484042661614675}
+      slotIndex: 0
   - link: []
   m_OutputFlowSlot:
   - link:
@@ -154,7 +156,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 60000
+      m_SerializableObject: 6000
     m_Space: 2147483647
   m_Property:
     name: Rate
@@ -882,7 +884,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 1
+      m_SerializableObject: 10
     m_Space: 2147483647
   m_Property:
     name: A
@@ -916,7 +918,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3
+      m_SerializableObject: 12
     m_Space: 2147483647
   m_Property:
     name: B
@@ -941,7 +943,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614627}
-  m_UIPosition: {x: 1403, y: 248}
+  m_UIPosition: {x: 1403, y: 325}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -1458,7 +1460,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.5
+      m_SerializableObject: 0.14
     m_Space: 2147483647
   m_Property:
     name: Intensity
@@ -1622,7 +1624,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615169}
   - {fileID: 8926484042661614653}
   - {fileID: 8926484042661614658}
-  m_UIPosition: {x: 1403, y: 703}
+  m_UIPosition: {x: 1403, y: 780}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -2095,7 +2097,9 @@ MonoBehaviour:
   m_InputFlowSlot:
   - link: []
   m_OutputFlowSlot:
-  - link: []
+  - link:
+    - context: {fileID: 8926484042661614598}
+      slotIndex: 0
   eventName: OnPlayBridge
 --- !u!114 &8926484042661614676
 MonoBehaviour:
@@ -2118,6 +2122,7 @@ MonoBehaviour:
   title: 
   m_Owners:
   - {fileID: 8926484042661614675}
+  - {fileID: 8926484042661614598}
 --- !u!114 &8926484042661614677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2166,27 +2171,6 @@ MonoBehaviour:
   title: 
   m_Owners:
   - {fileID: 8926484042661614677}
---- !u!114 &8926484042661615164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f68759077adc0b143b6e1c101e82065e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 114350483966674976}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  title: 
-  m_Owners:
-  - {fileID: 8926484042661614598}
 --- !u!114 &8926484042661615169
 MonoBehaviour:
   m_ObjectHideFlags: 0
