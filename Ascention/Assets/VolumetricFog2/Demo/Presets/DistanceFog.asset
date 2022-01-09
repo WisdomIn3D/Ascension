@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 612e70f49e5124da0a95111a57250300, type: 3}
   m_Name: DistanceFog
   m_EditorClassIdentifier: 
-  raymarchQuality: 8
+  raymarchQuality: 12
   raymarchMinStep: 0.2
   jittering: 0.3
   dithering: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
   useDetailNoise: 0
   detailTexture: {fileID: 11700000, guid: 950add8d241c6479bbab1f10e1035d60, type: 2}
   detailScale: 0.56
-  detailStrength: 0.317
+  detailStrength: 0.337
   detailOffset: -0.5
   density: 0.53
   shape: 0
