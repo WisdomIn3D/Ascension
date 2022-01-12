@@ -1793,7 +1793,7 @@
     },
     "m_Name": "Color",
     "m_DefaultReferenceName": "Color_86f3fc4dfe464e8cbf174faf9014beec",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "Color_wolf_color",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
