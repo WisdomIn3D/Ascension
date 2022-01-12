@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat_bridge
+  m_Shader: {fileID: -6465566751694194690, guid: aede77f560dc9604f967d7d503385982,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_042b9dd5d995413cb3899312be5c96ca: 0.1
+    - Vector1_0abe15c181444d378bac446e7f5e78e9: 16
+    - Vector1_0d76ee41063b47cfaeda9836ac50aeaa: 0
+    - Vector1_d9fb5f2c13824e24b518e5d90309d725: 1
+    - Vector1_dc9df0f8bbf64072804a28586884a573: 0.09
+    - Vector1_ed22cf0708254ea3bfb8a11f36bef23b: 2
+    - Vector1_lightbridge_speed: 0.2
+    - Vector1_lightbridge_strength: 0.2
+    - Vector1_lightbridge_tiling: 10
+    - Vector1_lightbridge_transparency: 1
+    - Vector1_lightbridge_twirl: 0.1
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0.1
+    - _DstBlend: 0
+    - _FlipbookBlending: 0
+    - _FlipbookMode: 0
+    - _Glossiness: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _ZWrite: 1
+    m_Colors:
+    - Color_28cad490339c466dafed57c7a64a27d9: {r: 0, g: 0.9335177, b: 2.3773584, a: 0}
+    - Color_lightbridge_color: {r: 0, g: 0.30155617, b: 0.7578583, a: 0}
+    - Vector2_d716ec7d34dd44e3af86970e659f41cd: {r: 0.12, g: 0.12, b: 0, a: 0}
+    - Vector2_lightbridge_edgeFade: {r: 0.07, g: 0.07, b: 0, a: 0}
+    - Vector3_7603c5b2858f43598a6f3167e2ea85e8: {r: 0, g: 0.4, b: 0, a: 0}
+    - Vector3_f947e63c360047a6b748c596f4ec291f: {r: 0, g: 0, b: 0, a: 0}
+    - Vector3_lightbridge_edgeFade: {r: 0.07, g: 0.07, b: 1, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
