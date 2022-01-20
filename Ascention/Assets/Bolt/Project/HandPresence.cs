@@ -78,9 +78,9 @@ public class HandPresence : MonoBehaviour
         {
             joystick2DAxis = new Vector2(0f, 0f);
 
-            if (targetDevice.TryGetFeatureValue(CommonUsages.primary2DAxisClick, out bool primary2DAxisClickValue) && primary2DAxisClickValue)
+           /* if (targetDevice.TryGetFeatureValue(CommonUsages.primary2DAxisClick, out bool primary2DAxisClickValue) && primary2DAxisClickValue)
            // Debug.Log("Pressing Primary2DAxisClick");
-            joystick2DAxisClick = primary2DAxisClickValue;
+            joystick2DAxisClick = primary2DAxisClickValue; */
         }
     }
 }
