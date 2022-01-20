@@ -74,7 +74,7 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   depthGradientMaxDistance: 1000
-  enableHeightGradient: 1
+  enableHeightGradient: 0
   heightGradient:
     serializedVersion: 2
     key0: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 1}
@@ -104,7 +104,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  brightness: 1
+  brightness: 5
   deepObscurance: 1
   specularColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
   specularThreshold: 0.845
