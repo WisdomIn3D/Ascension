@@ -8,6 +8,7 @@ TagManager:
   - Grab
   - Harmful
   - spawn
+  - collectable_DanielStein
   layers:
   - Default
   - TransparentFX
