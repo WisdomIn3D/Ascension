@@ -9,6 +9,7 @@ TagManager:
   - Harmful
   - spawn
   - collectable_DanielStein
+  - collected
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Spawn Area
   - Island02
   - island02Fog
-  - 
+  - Tunnel
   - 
   - 
   - 
