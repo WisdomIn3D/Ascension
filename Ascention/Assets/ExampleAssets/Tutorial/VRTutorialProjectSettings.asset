@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 579f019eb5d26450982c6ae506c6c3ff, type: 3}
   m_Name: VRTutorialProjectSettings
   m_EditorClassIdentifier: 
-  m_WelcomePage: {fileID: 11400000, guid: 3bf5c60804f704e11826afa05a7e2152, type: 2}
+  m_WelcomePage: {fileID: 0}
   m_InitialScene: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
   m_InitialCameraSettings:
     m_CameraMode: 0
